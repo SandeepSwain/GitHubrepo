@@ -1,0 +1,43 @@
+@import '~bootstrap3/dist/css/bootstrap.min.css';
+.card-img-top {
+    border-radius: 50%;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.git-button {
+    font-size: 10px;
+    border-radius: 10px;
+    border: 1px solid #898989;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.desc-box {
+    height: 100px;
+    overflow: hidden;
+}
+
+.pagination {
+    float: right;
+}
+
+.pagination .glyphicon {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.show-page-number {
+    border: 1px solid gray;
+    padding: 1px 25px;
+}
